@@ -3,7 +3,6 @@
     margin: 0 auto;
     width: 700px;
     height: 300px;
-
 }
 .blue {
     background-color: #17A2B8;
@@ -23,15 +22,41 @@
 }
 #user {
     height: 90%;
-    border-radius: 50%;
 }
 #map, #gear {
     height: 20px;
 }
-
-.contents {
-    margin-top: -60px;
+p{
+    position: relative;
+    margin: 0;
+    bottom: 60px;
+    left: 40px;
 }
-* {
-    border: 1px solid red
+.location{
+    width: 190px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left:40px;
+    bottom: 50px;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+}
+h1{
+    width: 200px;
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+    margin: 0;
+}
+h3, a {
+    margin-left: 5px;
+}
+img {
+    margin-right: 0px;
 }
