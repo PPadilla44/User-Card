@@ -1,0 +1,44 @@
+.container {
+    border: 3px solid rgb(224, 224, 224);
+    margin: 0 auto;
+    width: 700px;
+    height: 300px;
+
+}
+.blue {
+    background-color: #17A2B8;
+    height: 30%;
+}
+.circle {
+    background-color: rgb(224, 224, 224);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+}
+#user {
+    height: 90%;
+    border-radius: 50%;
+}
+#map, #gear {
+    height: 20px;
+}
+.about {
+    background-color: hotpink;
+    display: flex;
+}
+.edit {
+    background-color: red;
+    display: flex;
+}
+.contents {
+    margin-top: -60px;
+}
+* {
+    border: 1px solid red
+}
