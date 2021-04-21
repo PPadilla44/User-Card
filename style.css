@@ -28,14 +28,7 @@
 #map, #gear {
     height: 20px;
 }
-.about {
-    background-color: hotpink;
-    display: flex;
-}
-.edit {
-    background-color: red;
-    display: flex;
-}
+
 .contents {
     margin-top: -60px;
 }
