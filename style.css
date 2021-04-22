@@ -1,8 +1,9 @@
-.container {
+.usercard {
     border: 3px solid rgb(224, 224, 224);
     margin: 0 auto;
     width: 700px;
     height: 300px;
+    background-color: whitesmoke;
 }
 .blue {
     background-color: #17A2B8;
@@ -38,7 +39,7 @@ p{
     align-items: center;
     position: relative;
     left:40px;
-    bottom: 50px;
+    bottom: 60px;
 }
 .edit{
     display: flex;
@@ -50,13 +51,10 @@ p{
 h1{
     width: 200px;
     position: relative;
-    bottom: 40px;
+    bottom: 50px;
     left: 40px;
     margin: 0;
 }
 h3, a {
     margin-left: 5px;
-}
-img {
-    margin-right: 0px;
 }
